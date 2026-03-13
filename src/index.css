@@ -140,7 +140,19 @@ a {
  -webkit-user-select: none; /* Safari */
 user-select: none;
 }
+@media (max-width: 768px) {
+  .nav-logo {
+    font-size: 1.2rem;
+  }
 
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .nav-links a {
+    font-size: 0.75rem;
+  }
+}
 .nav-logo span { color: var(--accent); }
 
 .nav-links {
