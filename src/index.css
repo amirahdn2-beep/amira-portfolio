@@ -147,7 +147,7 @@ user-select: none;
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .nav-links a {
